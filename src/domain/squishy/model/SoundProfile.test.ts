@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { SoundProfile, SoundType } from './SoundProfile'
+import { SoundProfile } from './SoundProfile'
 
 describe('SoundProfile (Value Object)', () => {
   it('creates a valid sound profile with default parameters', () => {
