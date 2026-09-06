@@ -93,7 +93,7 @@ src/domain/
 - [x] 2.2 [TDD] `BaseMaterial`, `SoundFilling`, `Mold`, `Decoration` ドメインエンティティ/値オブジェクト
 - [x] 2.3 [TDD] `Squishy` 集約（配合、成形、デコレーション、変形・復元ステータス計算）
 - [x] 2.4 [TDD] `Order` 集約 & `SquishyScorer`（オーダー満足度・音と触感のマッチング計算）
-- [ ] 2.5 [TDD] `Workshop` 集約（コイン獲得、素材・型のアンロック）
+- [x] 2.5 [TDD] `Workshop` 集約（コイン獲得、素材・型のアンロック）
 
 ### フェーズ 3: 音響・ASMRインフラ & アプリケーション層
 - [ ] 3.1 [TDD] ユースケース群の実装（CraftSquishy, DeliverOrder, InspectSquishy）
@@ -118,3 +118,4 @@ src/domain/
 | 2026-09-06 | Feat(Domain) | [TDD] BaseMaterial, SoundFilling, Mold, Decoration の実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Domain) | [TDD] Squishy 集約の実装（ライフサイクル・触感合成・変形/復元/ASMRパラメータ計算） (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Domain) | [TDD] Order 集約 & SquishyScorer ドメインサービスの実装 (Red/Green/Refactor完了) |
+| 2026-09-06 | Feat(Domain) | [TDD] Workshop 集約 & Coin 値オブジェクトの実装 (Red/Green/Refactor完了) |
