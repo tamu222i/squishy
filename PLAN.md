@@ -100,7 +100,7 @@ src/domain/
 - [x] 3.2 Web Audio API による ASMR サウンドエンジン（シュワシュワ、サクサク、パチパチ、むにゅっ）の実装
 
 ### フェーズ 4: UI & インタラクション実装
-- [ ] 4.1 ぷにぷにインタラクションコンポーネント（変形・スローライジング・ASMR音連動）
+- [x] 4.1 ぷにぷにインタラクションコンポーネント（変形・スローライジング・ASMR音連動）
 - [ ] 4.2 クラフトUI（素材調合・サウンド素材選択・型抜き・デコレーション）
 - [ ] 4.3 工房ゲームループ（注文受注 → 制作 → 検査＆ASMR → 納品・報酬・アンロック）
 
@@ -121,3 +121,4 @@ src/domain/
 | 2026-09-06 | Feat(Domain) | [TDD] Workshop 集約 & Coin 値オブジェクトの実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(App) | [TDD] アプリケーション層ユースケース（CraftSquishy, DeliverOrder, InspectSquishy）の実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Infra) | [TDD] Web Audio API による ASMR サウンドエンジン（エア音、クランチ、パチパチ、スライム、ピヨピヨ笛）の実装 (Red/Green/Refactor完了) |
+| 2026-09-06 | Feat(UI) | [TDD] ぷにぷにインタラクションコンポーネント（SquishyToy/変形・スローライジング・ASMR連動）の実装 (Red/Green/Refactor完了) |
