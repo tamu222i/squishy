@@ -89,7 +89,7 @@ src/domain/
 - [x] 1.2 テスト環境の動作確認 & 初期コミット
 
 ### フェーズ 2: ドメインモデルのTDD実装 (Red -> Green -> Refactor -> Commit)
-- [ ] 2.1 [TDD] `TactileProperty` & `SoundProfile` 値オブジェクト
+- [x] 2.1 [TDD] `TactileProperty` & `SoundProfile` 値オブジェクト
 - [ ] 2.2 [TDD] `BaseMaterial`, `SoundFilling`, `Mold`, `Decoration` ドメインエンティティ/値オブジェクト
 - [ ] 2.3 [TDD] `Squishy` 集約（配合、成形、デコレーション、変形・復元ステータス計算）
 - [ ] 2.4 [TDD] `Order` 集約 & `SquishyScorer`（オーダー満足度・音と触感のマッチング計算）
@@ -114,3 +114,4 @@ src/domain/
 | 2026-09-06 | Concept | スクイーズ作成ゲームのコンセプト案（案A, 案B, 案C）の策定 |
 | 2026-09-06 | Design | 案A＋ASMR要素・サウンド素材の要件確定、DDDモデル設計・TDDタスク計画策定 |
 | 2026-09-06 | Setup | Vite + React + TypeScript + Vitest の基盤環境構築・テスト疎通完了 |
+| 2026-09-06 | Feat(Domain) | [TDD] TactileProperty & SoundProfile 値オブジェクトの実装 (Red/Green/Refactor完了) |
