@@ -97,7 +97,7 @@ src/domain/
 
 ### フェーズ 3: 音響・ASMRインフラ & アプリケーション層
 - [x] 3.1 [TDD] ユースケース群の実装（CraftSquishy, DeliverOrder, InspectSquishy）
-- [ ] 3.2 Web Audio API による ASMR サウンドエンジン（シュワシュワ、サクサク、パチパチ、むにゅっ）の実装
+- [x] 3.2 Web Audio API による ASMR サウンドエンジン（シュワシュワ、サクサク、パチパチ、むにゅっ）の実装
 
 ### フェーズ 4: UI & インタラクション実装
 - [ ] 4.1 ぷにぷにインタラクションコンポーネント（変形・スローライジング・ASMR音連動）
@@ -120,3 +120,4 @@ src/domain/
 | 2026-09-06 | Feat(Domain) | [TDD] Order 集約 & SquishyScorer ドメインサービスの実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Domain) | [TDD] Workshop 集約 & Coin 値オブジェクトの実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(App) | [TDD] アプリケーション層ユースケース（CraftSquishy, DeliverOrder, InspectSquishy）の実装 (Red/Green/Refactor完了) |
+| 2026-09-06 | Feat(Infra) | [TDD] Web Audio API による ASMR サウンドエンジン（エア音、クランチ、パチパチ、スライム、ピヨピヨ笛）の実装 (Red/Green/Refactor完了) |
