@@ -96,7 +96,7 @@ src/domain/
 - [x] 2.5 [TDD] `Workshop` 集約（コイン獲得、素材・型のアンロック）
 
 ### フェーズ 3: 音響・ASMRインフラ & アプリケーション層
-- [ ] 3.1 [TDD] ユースケース群の実装（CraftSquishy, DeliverOrder, InspectSquishy）
+- [x] 3.1 [TDD] ユースケース群の実装（CraftSquishy, DeliverOrder, InspectSquishy）
 - [ ] 3.2 Web Audio API による ASMR サウンドエンジン（シュワシュワ、サクサク、パチパチ、むにゅっ）の実装
 
 ### フェーズ 4: UI & インタラクション実装
@@ -119,3 +119,4 @@ src/domain/
 | 2026-09-06 | Feat(Domain) | [TDD] Squishy 集約の実装（ライフサイクル・触感合成・変形/復元/ASMRパラメータ計算） (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Domain) | [TDD] Order 集約 & SquishyScorer ドメインサービスの実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Domain) | [TDD] Workshop 集約 & Coin 値オブジェクトの実装 (Red/Green/Refactor完了) |
+| 2026-09-06 | Feat(App) | [TDD] アプリケーション層ユースケース（CraftSquishy, DeliverOrder, InspectSquishy）の実装 (Red/Green/Refactor完了) |
