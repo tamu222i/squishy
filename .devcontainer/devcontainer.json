@@ -1,0 +1,17 @@
+{
+  "name": "antigravity-sandbox",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [5173],
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Google.google-antigravity"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
+
