@@ -104,6 +104,10 @@ src/domain/
 - [x] 4.2 クラフトUI（素材調合・サウンド素材選択・型抜き・デコレーション）
 - [x] 4.3 工房ゲームループ（注文受注 → 制作 → 検査＆ASMR → 納品・報酬・アンロック）
 
+### フェーズ 5: モバイル最適化 & GitHub Pages デプロイ
+- [x] 5.1 モバイル向けタッチ・レスポンシブ最適化（iOS/Androidタッチ操作、AudioContextアンロック、ビューポート制御）
+- [ ] 5.2 GitHub Pages 向け Vite base設定 & GitHub Actions ワークフロー作成
+
 ---
 
 ## 5. 変更履歴 (Changelog)
@@ -123,3 +127,5 @@ src/domain/
 | 2026-09-06 | Feat(Infra) | [TDD] Web Audio API による ASMR サウンドエンジン（エア音、クランチ、パチパチ、スライム、ピヨピヨ笛）の実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(UI) | [TDD] ぷにぷにインタラクションコンポーネント（SquishyToy/変形・スローライジング・ASMR連動）の実装 (Red/Green/Refactor完了) |
 | 2026-09-06 | Feat(Game) | [TDD] クラフト作業台・オーダー受注・ASMR検査・納品・ショップ・ショールームの完全ゲームループ実装 (Red/Green/Refactor完了) |
+| 2026-09-08 | Plan | [Phase 5] モバイル対応 & GitHub Pages 自動デプロイワークフロー計画策定 |
+| 2026-09-08 | Feat(Mobile) | [TDD] モバイル向けタッチ操作・AudioContextアンロック・ビューポート・レスポンシブUI最適化 (Red/Green/Refactor完了) |

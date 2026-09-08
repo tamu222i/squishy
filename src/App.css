@@ -251,3 +251,68 @@
   0% { transform: scale(0.9); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
 }
+
+/* Mobile Responsive Optimization */
+@media (max-width: 640px) {
+  .app-container {
+    padding: 12px 10px 40px;
+  }
+
+  .app-header {
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .logo-title {
+    font-size: 19px;
+  }
+
+  .logo-icon {
+    font-size: 26px;
+  }
+
+  .coin-badge {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .nav-tabs {
+    -webkit-overflow-scrolling: touch;
+    padding: 4px;
+    gap: 6px;
+  }
+
+  .nav-tab-btn {
+    min-width: 100px;
+    padding: 10px 8px;
+    font-size: 12px;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .panel {
+    padding: 16px 12px;
+  }
+
+  .inspection-stage {
+    padding: 16px 8px;
+    min-height: 320px;
+  }
+
+  .btn-primary {
+    padding: 12px 20px;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .btn-secondary {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .selection-card {
+    padding: 10px 12px;
+  }
+}
+

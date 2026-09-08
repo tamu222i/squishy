@@ -3,6 +3,7 @@ import type { SoundTriggerInfo } from '../../domain/squishy/model/Squishy'
 export interface IAsmrSoundPlayer {
   playSquish(trigger: SoundTriggerInfo): void
   playRelease(trigger: SoundTriggerInfo): void
+  unlockAudio(): Promise<void>
 }
 
 export class WebAudioAsmrPlayer implements IAsmrSoundPlayer {
@@ -29,6 +30,13 @@ export class WebAudioAsmrPlayer implements IAsmrSoundPlayer {
       this.cachedContext.resume().catch(() => {})
     }
     return this.cachedContext
+  }
+
+  async unlockAudio(): Promise<void> {
+    const ctx = this.getContext()
+    if (ctx && ctx.state === 'suspended') {
+      await ctx.resume()
+    }
   }
 
   playSquish(trigger: SoundTriggerInfo): void {

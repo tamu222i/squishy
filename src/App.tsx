@@ -19,6 +19,11 @@ export function App() {
   const [activeStep, setActiveStep] = useState<1 | 2 | 3 | 4>(1)
   const [showDeliveryModal, setShowDeliveryModal] = useState(false)
 
+  // Handle touch unlock for mobile browsers
+  const handleInteraction = () => {
+    soundPlayer.unlockAudio()
+  }
+
   // Sound Preview Helper
   const previewSound = (e: React.MouseEvent, soundFillingId: string) => {
     e.stopPropagation()
@@ -63,7 +68,7 @@ export function App() {
   }
 
   return (
-    <div className="app-container">
+    <div className="app-container" onPointerDown={handleInteraction}>
       {/* Header */}
       <header className="glass-card app-header">
         <div className="logo-group">
