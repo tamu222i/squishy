@@ -106,7 +106,7 @@ src/domain/
 
 ### フェーズ 5: モバイル最適化 & GitHub Pages デプロイ
 - [x] 5.1 モバイル向けタッチ・レスポンシブ最適化（iOS/Androidタッチ操作、AudioContextアンロック、ビューポート制御）
-- [ ] 5.2 GitHub Pages 向け Vite base設定 & GitHub Actions ワークフロー作成
+- [x] 5.2 GitHub Pages 向け Vite base設定 & GitHub Actions ワークフロー作成
 
 ---
 
@@ -129,3 +129,4 @@ src/domain/
 | 2026-09-06 | Feat(Game) | [TDD] クラフト作業台・オーダー受注・ASMR検査・納品・ショップ・ショールームの完全ゲームループ実装 (Red/Green/Refactor完了) |
 | 2026-09-08 | Plan | [Phase 5] モバイル対応 & GitHub Pages 自動デプロイワークフロー計画策定 |
 | 2026-09-08 | Feat(Mobile) | [TDD] モバイル向けタッチ操作・AudioContextアンロック・ビューポート・レスポンシブUI最適化 (Red/Green/Refactor完了) |
+| 2026-09-08 | Deploy | GitHub Pages 自動デプロイワークフロー (.github/workflows/deploy.yml) および Vite base 設定完了 |
